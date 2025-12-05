@@ -1,0 +1,26 @@
+name: hospital_finder
+description: A Flutter app to find nearby hospitals with Google Maps integration
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.5.0
+  http: ^1.1.0
+  location: ^5.0.0
+  url_launcher: ^6.3.0
+  flutter_tts: ^4.0.2          # Speaks text aloud
+  speech_to_text: ^6.6.0       # Listens to voice
+  permission_handler: ^11.0.1  # Microphone access
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
